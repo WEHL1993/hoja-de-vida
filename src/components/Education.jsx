@@ -3,24 +3,28 @@ import { FaSchool, FaBookReader, FaUserGraduate, FaUniversity } from 'react-icon
 export default function Education() {
   const educationList = [
     {
-      nivel: 'Educación Primaria',
-      institucion: 'Escuela Oficial Rural Mixta Aldea Platanares',
-      icon: <FaSchool size={24} color="#0d6efd" />
-    },
-    {
-      nivel: 'Educación Básica',
-      institucion: 'Instituto Mixto de Educación Básica por Cooperativa Gregorio Gallardo',
-      icon: <FaBookReader size={24} color="#198754" />
+      nivel: 'Educación Universitaria',
+      institucion: 'Universidad Mariano Gálvez de Guatemala',
+      descripcion: 'Actualmente estoy cursando el octavo semestre en Ingeniería en Sistemas',
+      icon: <FaUniversity size={24} color="#dc3545" />
     },
     {
       nivel: 'Educación Diversificada',
       institucion: 'Colegio particular Mixto Miguel Ángel Asturias',
+      descripcion: 'Graduado como Perito Contador con Orientación en Computación',
       icon: <FaUserGraduate size={24} color="#fd7e14" />
     },
     {
-      nivel: 'Educación Universitaria',
-      institucion: 'Universidad Mariano Gálvez de Guatemala',
-      icon: <FaUniversity size={24} color="#dc3545" />
+      nivel: 'Educación Básica',
+      institucion: 'Instituto Mixto de Educación Básica por Cooperativa Gregorio Gallardo',
+      descripcion: '',
+      icon: <FaBookReader size={24} color="#198754" />
+    },
+    {
+      nivel: 'Educación Primaria',
+      institucion: 'Escuela Oficial Rural Mixta Aldea Platanares',
+      descripcion: '',
+      icon: <FaSchool size={24} color="#0d6efd" />
     }
   ];
 
@@ -34,7 +38,10 @@ export default function Education() {
               <div className="me-3">{edu.icon}</div>
               <div>
                 <h6 className="fw-bold mb-1">{edu.nivel}</h6>
-                <p className="mb-0 small">{edu.institucion}</p>
+                <p className="mb-0 small fw-semibold">{edu.institucion}</p>
+                {edu.descripcion && (
+                  <p className="mb-0 small text-muted">{edu.descripcion}</p>
+                )}
               </div>
             </div>
           ))}
