@@ -2,8 +2,8 @@ export default function Experience() {
   return (
     <section id="experience" className="py-5 fade-in">
       <div className="container">
-        <h2 className="mb-4">Experiencia Laboral</h2>
-
+        <h2 className="mb-4">💼 Experiencia Laboral</h2>
+        
         {/* Experiencia 1 */}
         <div className="card mb-4">
           <div className="card-body">
