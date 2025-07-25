@@ -49,7 +49,7 @@ export default function About() {
               </li>
               <li className="mb-3 d-flex align-items-center">
                 <FaPhone className="me-2" style={{ color: '#28a745' }} />
-                <span><strong>Teléfono:</strong> +502 1234-5678</span>
+                <span><strong>Teléfono:</strong> +502 5431-6741</span>
               </li>
               <li className="mb-3 d-flex align-items-center">
                 <FaMapMarkerAlt className="me-2" style={{ color: '#dc3545' }} />
@@ -60,7 +60,7 @@ export default function About() {
                 <span>
                   <strong>GitHub:</strong>{' '}
                   <a href="https://github.com/wilson-dev" target="_blank" rel="noreferrer">
-                    github.com/wilson-dev
+                    WEHL1993
                   </a>
                 </span>
               </li>
