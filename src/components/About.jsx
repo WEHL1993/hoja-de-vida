@@ -13,7 +13,7 @@ export default function About() {
         <div className="d-flex flex-column flex-md-row bg-light px-4 py-4 rounded shadow-sm align-items-start justify-content-between">
 
           {/* Columna izquierda: Avatar + descripción */}
-          <div className="d-flex flex-column flex-md-row align-items-start" style={{ flex: 1 }}>
+          <div className="d-flex flex-column flex-md-row align-items-center" style={{ flex: 1 }}>
             <img
               src={avatar}
               alt="Foto de perfil"
@@ -22,13 +22,14 @@ export default function About() {
               className="me-3 mb-3 mb-md-0 rounded-circle"
             />
             <div>
-              <h4 className="fw-bold text-primary">
-                Wilson Hernández, <br /> desarrollador de software
-              </h4>
+            
               <p className="text-muted mb-0">
-                Como desarrollador, me encanta transformar ideas en soluciones reales. Disfruto creando aplicaciones web modernas,
-                accesibles y funcionales usando tecnologías como React, Node.js y SQL Server.
-                Me motiva ver cómo mi código mejora la vida de los usuarios.
+                Soy un desarrollador full stack con pasión por convertir ideas en soluciones funcionales y accesibles. Me 
+                encanta trabajar con tecnologías como React, Node.js, Express y SQL Server para crear aplicaciones 
+                web modernas y eficientes. Me destaco por ser resolutivo, curioso y con atención al detalle, siempre 
+                buscando mejorar la experiencia del usuario. Trabajo bien en equipo, me adapto rápido a nuevas herramientas
+                y aplico buenas prácticas de desarrollo. Tengo experiencia integrando APIs, creando interfaces responsivas
+                y manejando control de versiones con Git.
               </p>
             </div>
           </div>
@@ -36,7 +37,7 @@ export default function About() {
           {/* Línea divisoria vertical */}
           <div
             className="mx-4 d-none d-md-block"
-            style={{ borderLeft: '3px solid #ccc', height: '150px' }}
+            style={{ borderLeft: '4px solid #ccc', height: '160px' }}
           ></div>
 
           {/* Columna derecha: Datos de contacto */}
