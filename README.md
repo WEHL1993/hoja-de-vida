@@ -1,12 +1,65 @@
-# React + Vite
+# 💼 Página Web Personal - Hoja de Vida
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una **hoja de vida digital** desarrollada como parte de la tarea de desarrollo web. Tiene como objetivo mostrar información profesional de manera moderna y responsiva, utilizando tecnologías actuales del lado del cliente. La página ha sido diseñada, desarrollada y publicada siguiendo buenas prácticas y estándares web.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Objetivo del Proyecto
 
-## Expanding the ESLint configuration
+Diseñar y publicar una página web personal que represente profesionalmente mi hoja de vida, aplicando conocimientos de:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Diseño responsivo
+- HTML5, CSS3 y JavaScript
+- Buenas prácticas en desarrollo web
+- Tecnologías modernas del lado del cliente
+
+---
+
+## 🧾 Contenido de la Página
+
+- Información personal 
+- Objetivo profesional o perfil personal
+- Formación académica
+- Experiencia laboral
+- Habilidades técnicas 
+- Proyectos realizados 
+- Formulario de contacto
+
+---
+
+## Requisitos Técnicos
+
+- Uso de **HTML5** y **CSS3** estructurados correctamente
+- Diseño completamente **responsivo** (móvil y escritorio)
+- Funcionalidades dinámicas con **JavaScript** o **TypeScript**
+- Estilizado con **Bootstrap** o **Material Design**
+- Incluye:
+  - Una imagen personal
+  - Una animación o efecto dinámico (ej. validación, animación al hacer scroll)
+  - Uso de componentes del framework CSS (cards, grid, navbar, etc.)
+
+---
+
+## Tecnologías Utilizadas
+
+- React + Vite  
+- Bootstrap 5  
+- HTML5 & CSS3  
+- JavaScript  
+- EmailJS (para el formulario de contacto)  
+- Animaciones con IntersectionObserver  
+
+---
+
+## Instalación y Uso
+
+1. Clona el repositorio:
+
+```bash
+git clone <url-del-repositorio>
+
+2. Intala las dependencias
+
+- npm install
+- npm run dev
+- npm run build
