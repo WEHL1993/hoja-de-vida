@@ -1,3 +1,5 @@
+const apiUrl = import.meta.env.VITE_API_URL;
+
 import { motion } from "framer-motion";
 import { FaDownload } from "react-icons/fa";
 

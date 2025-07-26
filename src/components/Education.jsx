@@ -1,3 +1,6 @@
+
+const apiUrl = import.meta.env.VITE_API_URL;
+
 import { FaSchool, FaBookReader, FaUserGraduate, FaUniversity } from 'react-icons/fa';
 
 export default function Education() {

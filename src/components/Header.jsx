@@ -1,3 +1,5 @@
+const apiUrl = import.meta.env.VITE_API_URL;
+
 export default function Header() {
   return (
     <header id="home" className="bg-light text-center pt-5 fade-in">

@@ -1,3 +1,5 @@
+const apiUrl = import.meta.env.VITE_API_URL;
+
 import { useState } from "react";
 
 export default function Contact() {

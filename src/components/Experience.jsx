@@ -1,3 +1,5 @@
+const apiUrl = import.meta.env.VITE_API_URL;
+
 export default function Experience() {
   return (
     <section id="experience" className="py-5 fade-in">

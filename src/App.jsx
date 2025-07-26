@@ -1,4 +1,6 @@
 
+const apiUrl = import.meta.env.VITE_API_URL;
+
 import './App.css'
 import Navbar from './components/Navbar.jsx'
 import Header from './components/Header.jsx'
